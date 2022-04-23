@@ -1,0 +1,82 @@
+@charset "utf:8";
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+.wrapper{
+    width: 1170px;
+    margin: auto;
+}
+
+body{
+    background: linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("images/__shirosaki_hana_himesaka_noa_hoshino_hinata_tanemura_koyori_and_konomori_kanon_watashi_ni_tenshi_ga_maiorita_drawn_by_take_shinobu__b7b01bc28bcebd50cb2def58727b39e4.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.nav-area{
+    float: right;
+    list-style: none;
+    margin-top: 20px;
+    padding-right: 10px;
+}
+
+.nav-area li{
+    display: inline-block;
+}
+
+.nav-area li a{
+    color: #fff;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-size: 14px;
+}
+
+.nav-area li a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.logo img{
+    width: 150px;
+    float: left;
+    padding-left: 5%;
+    padding-top: 2%;
+    filter: invert(1);
+}
+
+.welcome-text{
+    position: absolute;
+    margin: 20% 30%;
+    text-align: center;
+}
+
+.welcome-text h1{
+    text-align: center;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+}
+
+.welcome-text a{
+    border: 1px solid;
+    padding: 10px 25px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 20px;
+    display: inline-block;
+    color: #fff;
+}
+
+.welcome-text a:hover{
+    background: #fff;
+    color: #333;
+}
+
+.welcome-text p{
+    color: #fff;
+}
